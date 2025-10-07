@@ -70,7 +70,6 @@ public class UsernameService implements IUsernameService {
                     "Cannot reuse your last " + historyLimit + " usernames."
             );
         }
-//
         // Save history once
         UsernameHistory history = new UsernameHistory();
         history.setUser(user);
